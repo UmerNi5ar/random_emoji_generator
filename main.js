@@ -1,6 +1,6 @@
-const eyes = [ ":" , ";" , "٩" , ">" , "?" , "$" , "!"]
-const nose = [ "-" , "+"  ,">" , "-" , "_" , "=" , "*" , "<"];
-const lips = [ ")" , "(" , "{" , "[" , "]" , "}" , "/" , "|" ];
+let eyes = [ ":" , ";" , "٩" , ">" , "?" , "$" , "!"]
+let nose = [ "-" , "+"  ,">" , "-" , "_" , "=" , "*" , "<"];
+let lips = [ ")" , "(" , "{" , "[" , "]" , "}" , "/" , "|" ];
 let imp=[];
 let randomEyes=Math.floor(Math.random()*eyes.length);
 let randomNose=Math.floor(Math.random()*nose.length);
